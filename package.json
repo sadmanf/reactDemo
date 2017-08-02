@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --host localhost --port 3000 --content-base src --inline --hot"
+    "start": "webpack-dev-server --host 127.0.0.1 --port 3000 --content-base src --no-inline --hot"
   },
   "author": "",
   "license": "ISC",
